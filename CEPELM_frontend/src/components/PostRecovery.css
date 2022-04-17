@@ -1,0 +1,138 @@
+.before-recovery {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    
+}
+
+.after-recovery {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+   
+}
+
+.upload-image {
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+
+.image-before {
+    position: relative;
+
+}
+
+.image-after {
+    position: relative;
+}
+
+.try-again {
+    position: relative;
+    left: 515px;
+}
+
+.save {
+    position: relative;
+    left: 685px;
+    top: -58px;
+}
+/*.upload-format {
+    color: red;
+    display: inline-block;
+}*/
+
+/*label {
+    background-image: linear-gradient(lightgrey, white);
+    color: black;
+    padding: 5rem;
+    border-color: black;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}*/
+
+/*.submit-button {
+    text-align: left;
+    font-size: 150px;
+    color: black;
+}
+*/
+
+.box {
+    color: skyblue;
+    
+}
+
+.text {
+
+    position: relative;
+    top: 165px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.upload-button {
+    position: absolute;
+    left: 315px;
+    top: 635px;
+}
+
+.submit-button {
+    position: absolute;
+    left: 160px;
+    top: 6px;
+    color: black;
+}
+
+.custom-file-input {
+    color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    text-align: center;
+    content: 'Upload image';
+    color: black;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+.custom-file-input:hover::before {
+    text-align: center;
+    border-color: black;
+}
+.custom-file-input:active {
+    outline: 0;
+}
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+  
+body {
+    padding: 10px;
+}
+
+/*.border {
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 200px;
+    color: red;
+}
+*/
